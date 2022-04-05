@@ -1,0 +1,23 @@
+# This workflow will test pull requests
+
+name: "Test linting"
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Install dependencies
+        working-directory: ./
+        run: npm ci
+      - name: Lint
+        working-directory: ./
+        run: npm run lint
