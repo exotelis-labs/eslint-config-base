@@ -1,7 +1,5 @@
 # @exotelis-labs/eslint-config-base
 
-> eslint-config-prettier for Vue
-
 This config is primarily used by exotelis-labs projects.
 
 ## Installation
