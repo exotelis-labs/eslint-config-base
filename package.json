@@ -1,9 +1,9 @@
 {
   "name": "@exotelis-labs/eslint-config-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint-config-base",
   "license": "MIT",
-  "homepage": "https://github.com/exotelis-labs/leafly-vue#readme",
+  "homepage": "https://github.com/exotelis-labs/eslint-config-base#readme",
   "author": {
     "name": "Sebastian Krah",
     "email": "exotelis@mailbox.org"
@@ -30,7 +30,7 @@
     "prettier"
   ],
   "bugs": {
-    "url": "https://github.com/exotelis-labs/leafly-vue/issues"
+    "url": "https://github.com/exotelis-labs/eslint-config-base/issues"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.1",
@@ -39,10 +39,10 @@
     "prettier": "^2.5.1"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0",
-    "prettier": "^2.0.0"
+    "eslint": ">=8.0.0",
+    "prettier": ">=2.0.0"
   },
   "engines": {
-    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+    "node": ">=16.0.0"
   }
 }
